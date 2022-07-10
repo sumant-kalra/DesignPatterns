@@ -1,0 +1,40 @@
+0. Solid Principles:
+    SOLID: https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/ 
+    S - Single Responsibility Principle 
+    O - Open Closed Principle
+    L - Liskov Substitution Principle
+    I - Interface Segregation Principle 
+    D - Dependency Inversion Principle
+
+1. Design Patterns Categories:
+    (A) Creational
+        - provide object creation mechanisms that increase flexibility and reuse of existing code.
+    (B) Structural
+        - explain how to assemble objects and classes into larger structures, 
+            while keeping these structures flexible and efficient.
+    (C) Behavioural
+        - take care of effective communication and the assignment of responsibilities between objects.
+
+https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc 
+
+1. Strategy Pattern         [Behavioural]
+2. Observer Pattern         [Behavioural]
+3. Decorator Pattern        [Decorator]
+4. Factory Pattern          [Creational]   
+5. Abstract Factory Pattern [Creational]  
+6. Singleton Pattern        [Creational] 
+
+7. Command Pattern
+8. Adapter Pattern
+7. Facade Pattern
+8. Proxy Pattern
+9. Bridge Pattern
+10. Structural Pattern
+11. Template Pattern
+12. Composite PAttern
+13. Iterator Pattern
+14. State Pattern
+15. Null Object Pattern
+
+
+
