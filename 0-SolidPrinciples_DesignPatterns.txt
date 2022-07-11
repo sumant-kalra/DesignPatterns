@@ -6,12 +6,13 @@
     I - Interface Segregation Principle 
     D - Dependency Inversion Principle
 
-1. Design Patterns Categories:
-   https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
-   Design patterns are primarily based on the following principles of object orientated design
+1. Fundamental principles:
+    https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
     - Favor object composition over inheritance
     - Program to an interface not an implementation
 
+2. Design Patterns Categories:
+   [Fundamental principles] + [Solid principles]
     (A) Creational
         - provide object creation mechanisms that increase flexibility and reuse of existing code.
     (B) Structural
