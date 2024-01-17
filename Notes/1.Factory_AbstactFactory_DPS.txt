@@ -1,0 +1,24 @@
+* Factory Design Pattern and Abstact Factory Design Pattern:
+  - Factory Design Pattern: 1 Factory for each object 
+  - Abstact Factory Design Pattern: 1 Factory for a family of objects
+
+* Examples:
+  - Factory Design Pattern: APPLE Inc sells 1.MobilePhones 2.Earpods
+    * creates Factories for both 1.MobilePhones 2.Earpods
+	* Product_Abstract --> Mobiles 
+			           --> Earpods 
+	* Factory_Abstract --> Factory_Mobiles --> createObjectAPI() returns a 'Mobiles' object
+					   --> Factory_Earpods --> createObjectAPI() returns a 'Earpods' object
+
+  - Abstract Factory Design Pattern: APPLE Inc sells 1.MobilePhones 2.Earpods
+									 Samsung sells 1.MobilePhones 2.Earpods
+	* creates Factories for 1.Apple 2.Samsung; Each factory creates MobilePhones + Earpods objects 
+	* Product_Abstract_Mobiles --> Mobile 
+	  Product_Abstract_Earpods --> Earpods
+	* Factory_Abstract --> Factory_Apple can create 1.MobilePhones 2.Earpods --> createMobileAPI(), createEarpodsAPI(); wrapperAPI(factoryAppleObj) creates both the objects
+					   --> Factory_Samsung can create 1.MobilePhones 2.Earpods --> createMobileAPI(), createEarpodsAPI(); wrapperAPI(factorySamsungObj) creates both the objects
+
+
+
+
+
